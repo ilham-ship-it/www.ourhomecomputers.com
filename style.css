@@ -1,0 +1,207 @@
+body {
+    background-color: gainsboro;
+    height: 100vh;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+
+
+}
+.header {
+    margin-top: -10px;
+    background-color: aqua;
+    color: red;
+    padding: 20px;
+    text-align: left;
+    border:  1px;
+    border-radius: 30px;
+
+}
+.header img{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 70px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: -45px;
+
+
+}
+.header nav{
+    margin-top: -55px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150vh;
+    margin-right: 0px;
+    
+}
+.header nav a {
+    color: brown;
+    margin: 0 15px;
+    text-decoration:  none;
+    justify-content: left;
+    
+}
+.header nav :hover{
+    color: red;
+    
+}
+.hero{
+    background-image: -moz-linear-gradient(to bottom, #007bff, #0056b3);
+    color: gray;
+    text-align: center;
+}
+.hero button {
+    border: none;
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+    background-color: red;
+    cursor: pointer;
+
+}
+.hero button :hover{
+    background-color: turquoise;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+
+}
+
+
+.container{
+    text-align: center;
+    width: 300px;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-right: 25px;
+    background-image: url(loginback.jpg);
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+.container input {
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    row-gap: 10px;
+    display: flex;
+    background-color: yellow;
+    
+}
+.container button{
+    width: 100px;
+    margin-left: 60px;
+    height: 40px;
+    margin-right: 60px;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    justify-content: center;
+    cursor: pointer;
+    
+
+
+}
+.container button a {
+    background-color: none;
+    color: white;
+
+}
+.flex img{
+    width: 400px;
+    height: 350px;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    scrollbar-shadow-color: aqua;
+
+
+    
+    
+} 
+
+h1{
+    color: red;
+     font-style: Times New Roman;
+}
+h2{
+    color: green;
+}
+
+.appolo{
+    font-size: xx-large;
+    color: #0056b3;
+    margin-top: 200px;
+
+}
+h4{
+    color:  red;
+}
+
+.whatsapp{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.whatsapp a {
+    color: green;
+    font-size: x-large;
+    text-align: center;
+    
+}
+.facebook{
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 60px;
+}
+.facebook a {
+    color: blue;
+    font-size: x-large;
+    text-align: center;
+}
+.youtube{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+}
+.youtube a {
+    color: red;
+    font-size: x-large;
+    text-align: center;
+}
+.ticktok{
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+}
+.ticktok a {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
